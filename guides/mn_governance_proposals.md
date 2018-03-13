@@ -21,7 +21,7 @@ yKdGJkWJm4fXTrRmpvrXjpL4r8eMnnBeLd
 
 ### Create the proposal using the superblock and address from above. In this example we are asking for 1000 RUPX coins
 ```
-$ rupaya-cli preparebudget "test1" "example.com/proposal1" 1 144 "yKdGJkWJm4fXTrRmpvrXjpL4r8eMnnBeLd" 1000
+$ rupaya-cli preparebudget "test1" "http://example.com/proposal1" 1 144 "yKdGJkWJm4fXTrRmpvrXjpL4r8eMnnBeLd" 1000
 2e21cae5c69209d648734653e3dcca85c67ac96e08a48d99923de58e9ba222d3
 ```
 
@@ -32,7 +32,7 @@ $ rupaya-cli gettransaction 2e21cae5c69209d648734653e3dcca85c67ac96e08a48d99923d
 
 ### Once we have 6 confirmations for the proposal fee, we can submit the proposal
 ```
-$ rupaya-cli submitbudget "test1" "example.com/proposal1" 1 144 "yKdGJkWJm4fXTrRmpvrXjpL4r8eMnnBeLd" 1000 "2e21cae5c69209d648734653e3dcca85c67ac96e08a48d99923de58e9ba222d3"
+$ rupaya-cli submitbudget "test1" "http://example.com/proposal1" 1 144 "yKdGJkWJm4fXTrRmpvrXjpL4r8eMnnBeLd" 1000 "2e21cae5c69209d648734653e3dcca85c67ac96e08a48d99923de58e9ba222d3"
 ```
 
 ### See all proposals for this budget cycle
@@ -41,7 +41,7 @@ $ rupaya-cli getbudgetinfo
 [
     {
         "Name" : "test1",
-        "URL" : "example.com/proposal1",
+        "URL" : "http://example.com/proposal1",
         "Hash" : "1c4c744a3b684b535b0eafe30a9c366e189554a53e9c76b542b9cbba8887f886",
         "FeeHash" : "2e21cae5c69209d648734653e3dcca85c67ac96e08a48d99923de58e9ba222d3",
         "BlockStart" : 144,
