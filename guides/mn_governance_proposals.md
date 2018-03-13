@@ -1,8 +1,8 @@
-### Rupaya Governance powered by the blockchain
+## Rupaya Governance powered by the blockchain
 
 The Rupaya Community Governance will allow anyone with a Rupaya wallet to submit project proposals for new exchanges, marketing, dev, integrations, etc and get the requested RUPX funds if MasterNode owners vote it **Yes**
 
-## Create a proposal
+### Create a proposal
 
 All the commands assume a CLI wallet. You can run them in the debug console of a Qt wallet as well, just remove the `$ rupaya-cli ` part from the commands.
 
