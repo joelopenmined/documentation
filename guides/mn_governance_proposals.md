@@ -36,7 +36,7 @@ $ rupaya-cli submitbudget "test1" "example.com/proposal1" 1 144 "yKdGJkWJm4fXTrR
 ```
 
 ### See all proposals for this budget cycle
-```
+```json
 $ rupaya-cli getbudgetinfo
 [
     {
